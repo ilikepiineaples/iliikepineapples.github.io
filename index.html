@@ -5,7 +5,7 @@
   <title>@</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- new tab icon -->
-  <link rel="icon" href="https://imgs.search.brave.com/nkr_Ya9Set6fp-rcMLk8fJDk_6bEQZCyfEMOykb0PyM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvMS9UcmFu/c3BhcmVudC1QaW5l/YXBwbGUtUE5HLnBu/Zw">
+  <link rel="icon" href="https://imgs.search.brave.com/nkr_Ya9Set6fp-rcMLk8fJDk_6bEQZCyfEMOykb0PyM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cucG5nbWFydC5jb20vZmlsZXMvMS9UcmFuc3BhcmVudC1QaW5lYXBwbGUtUE5HLnBuZw">
   <style>
     /* base reset & typography */
     * {
@@ -229,7 +229,7 @@
   <!-- dynamic tab title script -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const fullTitle = "@ilikepineapplesalt4";
+      const fullTitle = "@ilikepineaplesalt4";
       let titleSequence = [];
       // build the forward sequence
       for(let i = 1; i <= fullTitle.length; i++){
@@ -247,10 +247,10 @@
   </script>
 </head>
 <body>
-  <!-- background video using video.mp4 -->
+  <!-- background video (updated link) -->
   <video id="bg-video" autoplay loop muted playsinline>
-    <source src="https://raw.githubusercontent.com/ilikepiineaples/ilikepiineaples.github.io/main/video.mp4" type="video/mp4">
-    your browser does not support html5 video
+    <source src="https://raw.githubusercontent.com/ilikepiineaples/iliikepiineaples.github.io/main/video.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
   </video>
   
   <!-- splash screen overlay -->
@@ -261,12 +261,12 @@
   <!-- hero section with centered card -->
   <section class="hero">
     <div class="card">
-      <img class="pineapple-gun" src="https://imgs.search.brave.com/nkr_Ya9Set6fp-rcMLk8fJDk_6bEQZCyfEMOykb0PyM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvMS9UcmFu/c3BhcmVudC1QaW5l/YXBwbGUtUE5HLnBu/Zw" alt="pineapple gun">
+      <img class="pineapple-gun" src="https://imgs.search.brave.com/nkr_Ya9Set6fp-rcMLk8fJDk_6bEQZCyfEMOykb0PyM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cucG5nbWFydC5jb20vZmlsZXMvMS9UcmFuc3BhcmVudC1QaW5lYXBwbGUtUE5HLnBuZw" alt="pineapple gun">
       <div class="profile">
-        <img class="profile-pic" src="https://imgs.search.brave.com/wuy2tGYRhXKqtzEKmhXH9QGv_cFWWJJbSVgB7rgjjjY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTUz/MDEwOTU0L3Bob3Rv/L3BpbmVhcHBsZS1m/cnVpdC1vbi10aGUt/YnVzaC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9NXp1WG96/NjdRVU9FTk1fQjVn/S3dHaVlsVFFoeTF2/YWRnX0JHQ0FKN18w/WT0" alt="profile picture">
-        <h1 class="profile-name">ilikepineapplesalt4</h1>
+        <img class="profile-pic" src="https://imgs.search.brave.com/wuy2tGYRhXKqtzEKmhXH9QGv_cFWWJJbSVgB7rgjjjY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRpYS5pc3RvY2twaG90by5jb20vaWQvOTUzMDEwOTU0L3Bob3RvL3BpbmVhcHBsZS1mcnVpdC1vbi10aGUtYnVzaC5qcGc" alt="profile picture">
+        <h1 class="profile-name">ilikepineaplesalt4</h1>
         <div class="social">
-          <a href="https://github.com/ilikepineapplesalt5" target="_blank">
+          <a href="https://github.com/ilikepiineaples" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github">
           </a>
           <a href="https://discord.com/users/1353097932915605507" target="_blank">
@@ -274,10 +274,11 @@
           </a>
         </div>
       </div>
-      <!-- audio player -->
+      <!-- audio player (updated link & no default controls) -->
       <div class="audio-player">
-        <audio id="audio" controls>
-          <source src="https://raw.githubusercontent.com/ilikepiineaples/ilikepiineaples.github.io/main/audio.m4a" type="audio/mp4">
+        <audio id="audio">
+          <source src="https://raw.githubusercontent.com/ilikepiineaples/iliikepiineaples.github.io/main/audio.m4a" type="audio/mp4">
+          Your browser does not support the audio tag.
         </audio>
         <button class="audio-button" id="playBtn">pause</button>
         <div class="volume-slider" id="volumeSlider">
@@ -327,7 +328,7 @@
         audio.play();
         playBtn.textContent = 'pause';
       } else {
-              audio.pause();
+        audio.pause();
         playBtn.textContent = 'play';
       }
     });
@@ -370,3 +371,4 @@
   </script>
 </body>
 </html>
+
